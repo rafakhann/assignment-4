@@ -8,7 +8,7 @@ def __init__(self):
    self.cabs = [3, 8, 12, 13, 17, 23, 34, 47]
    return
 def lsearch(self, x):
-   for i in self.cabs:
+   for i in len(self.cabs):
       if self.cabs[i]==x
          return i
    return -1
