@@ -1,0 +1,21 @@
+ASSIGNMENT 4
+
+QUESTION 1:
+
+
+class Uber:
+def __init__(self):
+   self.cabs = [3, 8, 12, 13, 17, 23, 34, 47]
+   return
+def lsearch(self, x):
+   for i in self.cabs:
+      if i == x
+         return self.cabs.index("i")
+   return -1
+id = Uber()
+x = int(input('Enter the cab code you are searching for: '))
+pos = id.bsearch(x)
+if pos == -1:
+print("No cabs nearby. Try Again")
+else:
+print("Cab is", pos, "KM away from you. Arriving Soon")
