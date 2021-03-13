@@ -9,8 +9,8 @@ def __init__(self):
    return
 def lsearch(self, x):
    for i in self.cabs:
-      if i == x
-         return self.cabs.index("i")
+      if self.cabs[i]==x
+         return i
    return -1
 id = Uber()
 x = int(input('Enter the cab code you are searching for: '))
